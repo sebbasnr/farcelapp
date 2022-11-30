@@ -6,7 +6,7 @@ from trazos import trace
 from paquetedefault import packages  
 from uuid import uuid4 as uuid  
 
-app = FastAPI()
+app = FastAPI(title="Parcel APP", description="Bienvenid@ a la documentación de endpoints de Parcel APP UTB", version="0.0.1")
 
 facturas = []  
 
